@@ -1,0 +1,21 @@
+# ignore the pretrained models
+pre/
+
+# RobustRSR 
+RobustRSR/class*
+RobustRSR/Class*
+RobustRSR/get*
+RobustRSR/testadv.py
+RobustRSR/trainallnew.py
+RobustRSR/trainclass.py
+RobustRSR/trainall.sh
+
+RobustRSR/runs/
+
+# TorchTools
+TorchTools/Functions/visual_fea.py
+
+
+# temp
+temp.txt
+temp_token.txt

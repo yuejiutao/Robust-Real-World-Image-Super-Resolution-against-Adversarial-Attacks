@@ -1,0 +1,1 @@
+python adv_train.py --gpus 1 --model 'CDC_MC' --nb_iter 3 --rate 6.0 --exp_name 'CDC_MC_12_27' --runlog 'runs/train/CDC_MC_12_27' --config_file './options/realSR_HGSR_MSHR.py' --pretrain '/data1/yuejiutao/Code/RobustRSR_exp/pre/CDC_MC/CDC_MC_X4_1650.pth' --test_dataroot '/data1/yuejiutao/Data/RealSR/x4' #
