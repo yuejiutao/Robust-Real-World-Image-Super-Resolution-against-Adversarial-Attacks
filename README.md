@@ -59,7 +59,7 @@ sh test.sh
 4. You can find the enlarged images under different adversarial intensities in ```/yourfolder/Data/RealSR/x4/adv/CDC_MC/``` folder
 
 #### Pretrained models
-
+[RobustRSR_X4](https://drive.google.com/file/d/1lf5jkroHeHcFNh-DL9MgjvrM8b5BXBbY/view?usp=sharing)
 
 ## Citation
 If you find our work useful in your research or publication, please cite:
