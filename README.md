@@ -58,7 +58,7 @@ sh test.sh
 ```
 4. You can find the enlarged images under different adversarial intensities in ```/yourfolder/Data/RealSR/x4/adv/CDC_MC/``` folder
 
-### Pretrained models
+#### Pretrained models
 
 
 ## Citation
