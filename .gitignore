@@ -19,3 +19,6 @@ TorchTools/Functions/visual_fea.py
 # temp
 temp.txt
 temp_token.txt
+
+#
+.gitignore
