@@ -41,13 +41,13 @@ class IFGSM(nn.Module):
         self.clip_eps_max = clip_eps_max
         self.C = C
 
-    def sigle_step_attack(self, x, pertubation, labels,ii=0):
+    def sigle_step_attack(self, x, pertubation, labels):
         adv_x = x + pertubation
         # get the gradient of x
         adv_x = Variable(adv_x)
         adv_x.requires_grad = True
 
-        if(self.modelname=='CDC_MC' or self.modelname=='CDC_MC27'):
+        if self.modelname=='CDC_MC':
             preds,_ ,judloss,Flag=self.model(adv_x)
             preds=preds[-1]
         else:
